@@ -5,31 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="main.css">
+
+    <link rel="stylesheet" href="FlexSlider/flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="FlexSlider/jquery.flexslider.js"></script>
     <title>隆源</title>
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+        $('.flexslider').flexslider(
+            {
+            slideshowSpeed: 5000,
+            controlNav: false
+            }
+        );
+    });
+    </script>
 </head>
 <body>
-    <ul class="drop-down-menu">
-        <li>
-            <a href="index.html" class="drop-down-menu-element">首頁</a>
-        </li>
-        <li>
-            <a href="#" class="drop-down-menu-element">商標註冊</a>
-            
-            <div class="drop-down-menu-sec-element">
-                <a href="#">國內註冊</a>
-                <a href="#">國際註冊</a>
-            </div>
-            
-        </li>
-        <li><a href="#" class="drop-down-menu-element">專利申請</a>
-        </li>
-        <li><a href="#" class="drop-down-menu-element">版權登記</a>
-        </li>
-        <li><a href="#" class="drop-down-menu-element">智權買賣</a>
-        </li>
+    <div class="header-logo">
+        <div id = "logo">隆源智權有限公司</div>
         
-    </ul>
+        <div id="logo-title">專注知識產權十五年</div>
+        <ul class="drop-down-menu">
+            <li>
+                <a href="index.html" class="drop-down-menu-element">首頁</a>
+            </li>
+            <li>
+                <a href="#" class="drop-down-menu-element">商標註冊</a>
+                
+                <div class="drop-down-menu-sec-element">
+                    <a href="#">國內註冊</a>
+                    <a href="#">國際註冊</a>
+                </div>
+                
+            </li>
+            <li>
+                <a href="#" class="drop-down-menu-element">專利申請</a>
 
-
+                <div class="drop-down-menu-sec-element">
+                    <a href="#">國內專利</a>
+                    <a href="#">國際專利</a>
+                </div>
+            </li>
+            <li>
+                <a href="#" class="drop-down-menu-element">版權登記</a>
+                <div class="drop-down-menu-sec-element">
+                    <a href="#">一般版權登記</a>
+                    <a href="#">軟件版權登記</a>
+                </div>
+            </li>
+            <li><a href="#" class="drop-down-menu-element">智權買賣</a>
+            </li>
+        </ul>
+    </div>
+    <div class="slider_block">
+        <div class="flexslider" >
+            <ul class="slides">
+            <li>
+                <img src="slide1.jpg" />
+            </li>
+            <li>
+                <img src="slide2.jpg" />
+            </li>
+            <li>
+                <img src="slide3.jpg" />
+            </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
