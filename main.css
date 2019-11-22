@@ -63,13 +63,17 @@
      position: relative;
      white-space: nowrap;
      min-width: 10%;
-     width: 8.125rem;
+     width: 8.5rem;
      height: 100%;
  }
 
  ul.drop-down-menu>li:last-child {
      border-right: none;
  }
+
+ ul.drop-down-menu>li:first-child {
+    width: 7rem;
+}
 
  ul.drop-down-menu>li {
      float: left;
@@ -127,6 +131,47 @@
 
     .slider_block {
         display: flex;
-        height: 32rem;
+        height: 35rem;
         justify-content:center;
     }
+
+    
+  
+  /* ====================================================================================================================
+ * info
+ * ====================================================================================================================*/
+ 
+ .flexcontainer {
+     display: block;
+     margin: 0 auto;
+     width: 1024px;
+ }
+
+ .info {
+     display: inline-flex;
+     margin: 0 auto;
+     justify-content: center;
+     width: 100%;
+     align-content: flex-start;
+     flex-wrap: wrap;
+ }
+
+ .item {
+     width: 30%;
+     padding: 0 3% 3% 0;
+     font-family: 'Ubuntu Condensed', sans-serif;
+ }
+
+ .title {
+    /* color: rgb(42, 127, 148);     */
+    font-size: 1.6em;
+    font-weight: normal;
+    font-family: 'Ubuntu Condensed', sans-serif;
+ }
+
+ .sec-title {
+     font-size: 1.4rem;
+     font-family: 'Ubuntu Condensed', sans-serif;
+     font-weight: bold;
+     margin: 0 0 0.5rem 0;
+ }
