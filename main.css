@@ -37,6 +37,21 @@
     border-left: #999 1px solid;
     padding-left: 0.625rem;
 }
+#id_footer {
+    background-color: #C7FF33;
+    text-align: center;
+    min-height: 60px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 0px;
+    /* 展開footer寬度 */
+    width: 100%;
+    font-size: 18px;
+}
+#footer1{
+    font-weight: normal;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
 
  ul {
      /* 取消ul預設的內縮及樣式 */
@@ -183,3 +198,4 @@
      font-weight: bold;
      margin: 0 0 0.5rem 0;
  }
+ 
