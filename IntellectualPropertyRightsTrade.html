@@ -9,8 +9,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
     <title>智權買賣</title>
+
+    <script>
+        function init(){
+            console.log("AAA")
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        }
+    </script>
 </head>
-<body>
+<body onload="init();">
     <div class="container">
         <div id="header"></div>
         <div class="trademark_info">
@@ -28,9 +36,5 @@
         
         <div id="footer"></div>
     </div>
-    <script>
-    $("#header").load("header.html");
-    $("#footer").load("footer.html");
-    </script>
 </body>
 </html>
