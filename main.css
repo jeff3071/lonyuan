@@ -38,14 +38,15 @@
     padding-left: 0.625rem;
 }
 #id_footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #C7FF33;
     text-align: center;
     min-height: 60px;
     box-sizing: border-box;
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
     /* 展開footer寬度 */
-    width: 100%;
     font-size: 18px;
 }
 #footer1{
