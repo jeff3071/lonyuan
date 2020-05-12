@@ -226,3 +226,8 @@ html > * {
  .sec_p {
     margin-left: 20px;
 }
+
+.banner {
+    width: 1024px;
+    margin: 0 auto;
+}
