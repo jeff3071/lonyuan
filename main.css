@@ -1,10 +1,11 @@
 .container {
     min-width: 1100px;
+    background-color: #E1E6FF;
 }
 
 html > * {
     margin: 0;
-    background-color: #D2E9FF ;
+    background-color: #A4A4EB ;
 }
   
   /* ====================================================================================================================
@@ -21,9 +22,13 @@ html > * {
  }
 
  .header-logo > * {
-     background-color: #D2E9FF;
+     background-color: #A4A4EB;
  }
- 
+
+ #header {
+     background-color: #A4A4EB;
+ }
+
 #logo {
     display: inline-block;
     font-size: 1.875rem;
@@ -49,11 +54,11 @@ html > * {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #D2E9FF;
+    background-color: #A4A4EB;
     text-align: center;
     min-height: 60px;
     box-sizing: border-box;
-    position: fixed;
+    position: static;
     /* 展開footer寬度 */
     font-size: 18px;
 }
@@ -81,6 +86,7 @@ html > * {
      /* width: 70%; */
      height: 100%;
      padding-left: 0.625rem;
+     
  }
 
  ul.drop-down-menu li {
@@ -104,7 +110,7 @@ html > * {
  }
 
  ul.drop-down-menu a {
-    background-color: #D2E9FF;
+    background-color: #A4A4EB;
      color: #333;
      display: block;
      padding: 0 2rem;
@@ -158,6 +164,7 @@ html > * {
         height: 35rem;
         justify-content:center;
     }
+
 
     
   
