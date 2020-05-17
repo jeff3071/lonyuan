@@ -4,6 +4,7 @@
     min-height: 100%;
 }
 
+
 html > * {
     margin: 0;
     background-color: #A4A4EB ;
@@ -74,10 +75,16 @@ h2 {
     /* 展開footer寬度 */
     font-size: 18px;
     text-shadow: none;
+    max-height: 84px;
+    min-width: 900px;
+    overflow-x: scroll;
+    
 }
 #footer1{
     font-weight: normal;
+    min-width: 100%;
     font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+    overflow-x: scroll;
 }
 
  ul {
