@@ -279,6 +279,7 @@ h2 {
 .high {
     height: calc(100vh - 60px - 372px - 48px);
     padding: 0 12px 0 12px;
+    min-height: 300px;
 }
 
 .slides {
