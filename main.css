@@ -77,7 +77,7 @@ h2 {
     text-shadow: none;
     max-height: 84px;
     min-width: 900px;
-    overflow-x: scroll;
+    overflow-x: hidden;
     
 }
 #footer1{
