@@ -234,16 +234,16 @@ h2 {
 
  .title {
     /* color: rgb(42, 127, 148);     */
-    font-size: 1.6em;
+    font-size: 2rem;
     font-weight: normal;
     font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
  }
 
  .sec-title {
-     font-size: 1.4rem;
+     font-size: 1.6rem;
      font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
      font-weight: bold;
-     margin: 0 0 0.5rem 0;
+     margin: 0.5rem 0 0.5rem 0;
  }
 
   /* ====================================================================================================================
