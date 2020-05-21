@@ -232,6 +232,11 @@ h2 {
      font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
  }
 
+ h1, h2, h3, h4 {
+    color: #007897;
+    font-weight: normal;
+}
+
  .title {
     /* color: rgb(42, 127, 148);     */
     font-size: 2rem;
